@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 15px;
+    margin-top: 5px;
+    font-style: italic;
+}
+h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.frame-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    margin: 1rem;
+    width: 80vw;
+    height: 80vh;
+}
